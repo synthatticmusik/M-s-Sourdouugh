@@ -1,23 +1,18 @@
-# M’s Sourdough — GitHub Pages website
+# M's Sourdough — GitHub Pages site
 
-A responsive one-page website for M’s Sourdough, owned by Mayank Patel. Built as a single `index.html` file so it is easy to copy into a GitHub repository and publish with GitHub Pages.
+A responsive restaurant page for M's Sourdough by Mayank Patel, inspired by the broad structure and lively scrolling experience of the supplied Franco Manca restaurant reference, with original copy and styling.
 
-## Before publishing
-
-1. Replace `91XXXXXXXXXX` in the script at the bottom of `index.html` with the restaurant's WhatsApp number, including country code and digits only.
-2. Replace `@ms.sourdough` with the confirmed Instagram handle.
-3. Add the exact address, opening hours and opening date once confirmed.
-4. Replace the menu placeholders with the actual dishes and prices.
-5. Confirm that the Italy-learning story and 48-hour fermentation description accurately reflect Mayank's process.
-6. The food photos are loaded from Unsplash URLs, and Google Fonts are loaded online; an internet connection is required for those assets.
-
-## Publish with GitHub Pages
-
-1. Create a GitHub repository named `ms-sourdough` (or another name you prefer).
-2. Upload `index.html` and `README.md` to the repository root.
+## Publish
+1. Create a repository on GitHub, e.g. `ms-sourdough`.
+2. Upload `index.html` to the repository root.
 3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch `main` and folder `/ (root)`, then save.
-6. Wait for GitHub Pages to publish the site. Your public URL will be shown in the Pages settings.
+4. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/(root)`, and save.
+5. Wait for GitHub Pages to publish the site and open the URL shown in Pages settings.
 
-This is a static site. The reservation form opens WhatsApp with a pre-filled message; it does not confirm or store bookings by itself.
+## Before launch
+- Replace placeholder menu items with Mayank's actual menu and prices.
+- Add the confirmed restaurant address, opening hours, Instagram handle, and booking contact.
+- Replace stock photos with Mayank's own dough, oven, pizza and restaurant photos when available.
+- The reservation section currently directs visitors to the contact section; connect the final booking CTA to the confirmed WhatsApp number or booking system.
+
+The page uses Google Fonts and remote Unsplash photos, so visitors need an internet connection for those assets to load.
